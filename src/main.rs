@@ -14,7 +14,7 @@ fn main() -> Result<(), String>{
     // init sdl2 
     let sdl_context = sdl2::init()?;
     let video_subsystem = sdl_context.video().unwrap();
-    let window = video_subsystem.window("SEX", screen_width, screen_height)
+    let window = video_subsystem.window("Game of Life", screen_width, screen_height)
     .position_centered()
     .build()
     .unwrap();
