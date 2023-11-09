@@ -1,5 +1,6 @@
 # Game of Rust
-This is a simple 50x50 Conway's Game of Life implemented in Rust with sdl2.
+This is a simple 50x50 Conway's Game of Life implemented in Rust with SDL2.
+![showcase gif](https://giphy.com/embed/0E1AJhKegFRopbJbLs)
 ## Quick start
 ```
 cargo run --release
